@@ -1,1 +1,13 @@
-/* Start coding here */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: hsla(0, 50%, 100%, 0.5);
+}
